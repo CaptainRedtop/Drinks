@@ -755,6 +755,7 @@
             // 
             // buttonGetDrinks
             // 
+            buttonGetDrinks.AutoSize = true;
             buttonGetDrinks.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             buttonGetDrinks.Location = new Point(568, 466);
             buttonGetDrinks.Name = "buttonGetDrinks";
@@ -762,7 +763,6 @@
             buttonGetDrinks.TabIndex = 96;
             buttonGetDrinks.Text = "Get Drinks";
             buttonGetDrinks.UseVisualStyleBackColor = true;
-            buttonGetDrinks.Click += buttonGetDrinks_Click;
             // 
             // labelExtras
             // 
@@ -912,7 +912,7 @@
             checkBoxPassionfruitSyrup.Size = new Size(164, 27);
             checkBoxPassionfruitSyrup.TabIndex = 110;
             checkBoxPassionfruitSyrup.Text = "Passionfruit";
-            checkBoxPassionfruitSyrup.UseVisualStyleBackColor = true;
+            checkBoxPassionfruitSyrup.UseVisualStyleBackColor = false;
             // 
             // checkBoxGrenadine
             // 
@@ -938,6 +938,7 @@
             // 
             // buttonReset
             // 
+            buttonReset.AutoSize = true;
             buttonReset.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             buttonReset.Location = new Point(12, 466);
             buttonReset.Name = "buttonReset";
