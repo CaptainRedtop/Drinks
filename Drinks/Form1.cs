@@ -1,3 +1,5 @@
+using System.ComponentModel.Design.Serialization;
+
 namespace Drinks
 {
     public partial class Form1 : Form
@@ -26,5 +28,16 @@ namespace Drinks
 
         }
         #endregion DAL
+
+        private void buttonReset_Click(object sender, EventArgs e)
+        {
+            foreach (Control x in this.Controls)
+            {
+                if (x is CheckBox)
+                {
+                    
+                }
+            }
+        }
     }
 }

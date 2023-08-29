@@ -105,6 +105,7 @@
             checkBoxPassionfruitSyrup = new CheckBox();
             checkBoxGrenadine = new CheckBox();
             checkBoxLimeSyrup = new CheckBox();
+            buttonReset = new Button();
             SuspendLayout();
             // 
             // checkBoxWhiteRum
@@ -755,7 +756,7 @@
             // buttonGetDrinks
             // 
             buttonGetDrinks.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonGetDrinks.Location = new Point(564, 458);
+            buttonGetDrinks.Location = new Point(568, 466);
             buttonGetDrinks.Name = "buttonGetDrinks";
             buttonGetDrinks.Size = new Size(154, 50);
             buttonGetDrinks.TabIndex = 96;
@@ -935,11 +936,23 @@
             checkBoxLimeSyrup.Text = "Lime";
             checkBoxLimeSyrup.UseVisualStyleBackColor = true;
             // 
+            // buttonReset
+            // 
+            buttonReset.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonReset.Location = new Point(12, 466);
+            buttonReset.Name = "buttonReset";
+            buttonReset.Size = new Size(154, 50);
+            buttonReset.TabIndex = 113;
+            buttonReset.Text = "Reset";
+            buttonReset.UseVisualStyleBackColor = true;
+            buttonReset.Click += buttonReset_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1287, 528);
+            Controls.Add(buttonReset);
             Controls.Add(checkBoxLimeSyrup);
             Controls.Add(checkBoxGrenadine);
             Controls.Add(checkBoxPassionfruitSyrup);
@@ -1046,31 +1059,11 @@
         private CheckBox checkBoxPisangAmbon;
         private Label labelLiqour;
         private CheckBox checkBoxYellowBanana;
-        private CheckBox checkBox16;
-        private CheckBox checkBox17;
-        private CheckBox checkBox18;
-        private CheckBox checkBox19;
-        private CheckBox checkBox20;
-        private CheckBox checkBox21;
-        private CheckBox checkBox22;
-        private CheckBox checkBox23;
-        private CheckBox checkBox24;
-        private CheckBox checkBox25;
-        private CheckBox checkBox26;
-        private Label label2;
-        private CheckBox checkBox27;
-        private CheckBox checkBox28;
         private CheckBox checkBoxRedBull;
         private CheckBox checkBoxBooster;
         private CheckBox checkBoxMonster;
         private CheckBox checkBoxSparklingWater;
         private CheckBox checkBoxFanta;
-        private CheckBox checkBox34;
-        private CheckBox checkBox35;
-        private CheckBox checkBox36;
-        private CheckBox checkBox37;
-        private CheckBox checkBox38;
-        private Label label3;
         private CheckBox checkBoxCola;
         private CheckBox checkBoxGrapefruitJuice;
         private CheckBox checkBoxLemonJuice;
@@ -1081,11 +1074,9 @@
         private CheckBox checkBoxPassionfruitJuice;
         private CheckBox checkBoxAppleJuice;
         private CheckBox checkBoxOrangeJuice;
-        private Label label4;
         private CheckBox checkBoxPineappleJuice;
         private CheckBox checkBoxPeach;
         private CheckBox checkBoxBlueberry;
-        private CheckBox checkBox54;
         private CheckBox checkBoxPear;
         private CheckBox checkBoxPineapple;
         private CheckBox checkBoxPassionfruit;
@@ -1102,7 +1093,6 @@
         private CheckBox checkBoxSugar;
         private CheckBox checkBoxBitter;
         private Label labelSyrup;
-        private CheckBox checkBox13;
         private CheckBox checkBoxFreshMint;
         private CheckBox checkBoxMango;
         private CheckBox checkBoxCrushedIce;
@@ -1124,5 +1114,6 @@
         private CheckBox checkBoxPassionfruitSyrup;
         private CheckBox checkBoxGrenadine;
         private CheckBox checkBoxLimeSyrup;
+        private Button buttonReset;
     }
 }
