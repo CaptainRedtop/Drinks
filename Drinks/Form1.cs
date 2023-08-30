@@ -1,7 +1,3 @@
-using System.ComponentModel.Design.Serialization;
-using System.Runtime.CompilerServices;
-using System.Configuration;
-
 namespace Drinks
 {
     public partial class Form1 : Form
@@ -15,22 +11,6 @@ namespace Drinks
         {
             Logic();
         }
-        #endregion GUI
-
-        #region Logic
-        private static void Logic()
-        {
-
-        }
-        #endregion Logic
-
-        #region DAL
-        private static void DAL()
-        {
-
-        }
-        #endregion DAL
-
         private void buttonReset_Click(object sender, EventArgs e)
         {
             foreach (var control in this.Controls)
@@ -113,5 +93,22 @@ namespace Drinks
             checkBoxYellowBanana.Checked = false;
             */
         }
+        #endregion GUI
+
+        #region Logic
+        private static void Logic()
+        {
+
+        }
+        #endregion Logic
+
+        #region DAL
+        private static void DAL()
+        {
+
+        }
+        #endregion DAL
+
+
     }
 }
