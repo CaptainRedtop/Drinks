@@ -33,6 +33,17 @@ namespace Drinks
 
         private void buttonReset_Click(object sender, EventArgs e)
         {
+            foreach (var control in this.Controls)
+            {
+                if (control is CheckBox)
+                {
+                    if (((CheckBox)control).Checked)
+                    {
+                        ((CheckBox)control).Checked = false;
+                    }
+                }
+            }
+            /*
             checkBoxApple.Checked = false;
             checkBoxAppleJuice.Checked = false;
             checkBoxBaileys.Checked = false;
@@ -100,6 +111,7 @@ namespace Drinks
             checkBoxWhisky.Checked = false;
             checkBoxWhiteRum.Checked = false;
             checkBoxYellowBanana.Checked = false;
+            */
         }
     }
 }
